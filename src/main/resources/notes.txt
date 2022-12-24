@@ -1,0 +1,41 @@
+- Sprinboot is an extension of Spring framework.
+@SpringBootApplication annotation is applied to the main application class.
+ It indicates that the application should use SpringBoot.
+ It is a shortcut annotation and applies below three annotations at one go-
+    @SpringBootConfiguration - annotates a class as Configuration. Also, replacement for @Configuration
+    @EnableAutoConfiguration - Tells springboot to configure beans.
+    @ComponentScan - Tells springboot to scan current package and it's subpackages.
+
+- H2 is a in-memory database written in Java
+
+- Starter Dependency
+    Starter dependencies when added in pom.xml file includes all the dependent libraries in the project.
+    e.g. spring-boot-starter-web
+         spring-boot-starter-test
+         spring-boot-starter-data-jpa,
+            includes dependencies Hibernate, Spring Data JPA, Spring ORM
+         spring-boot-starter-thymeleaf
+         spring-boot-starter-actuator
+         
+JPA - Java Persistent API 
+
+@Controller
+@Service
+@Repository
+@RestController
+@RequestMapping
+@GetMapping
+@Component
+@Autowired
+@Bean
+@Value
+
+JPA annotations-
+   @Temporal - represents a time field
+   @Entity -srepresents a JPA entity. (table)
+   @Lob - stands for large object, stores data as binary
+   @Column - 
+
+* ReuestMethod.PUT updates the complete record while ReuestMethod.PATCH is used to update only a portion.
+
+* Read JNDI
